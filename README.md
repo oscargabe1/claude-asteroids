@@ -32,7 +32,20 @@ Luego visita `http://localhost:3000`.
 | --------- | ---------- |
 | `←` `→`   | Rotar nave |
 | `↑`       | Propulsar  |
+| `↓`       | Reversa    |
 | `Espacio` | Disparar   |
+| `B`       | Bomba nova |
+
+## Power-ups
+
+Se sueltan al destruir asteroides (10% de probabilidad). Tócalos con la nave para recogerlos.
+
+| Ítem | Efecto | Duración |
+| ---- | ------ | -------- |
+| `3` Disparo triple | 3 balas en abanico | 10 s |
+| `S` Escudo | Absorbe un impacto de asteroide | 5 s o 1 golpe |
+| `~` Slow motion | Asteroides a la mitad de velocidad | 6 s |
+| `N` Bomba nova | Destruye todos los asteroides en pantalla (se guarda, máx. 3, se usa con `B`) | 1 uso |
 
 ## Puntuación
 
